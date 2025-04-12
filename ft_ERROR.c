@@ -6,12 +6,11 @@
 /*   By: zbechtle <zbechtle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/04 12:34:13 by zbechtle          #+#    #+#             */
-/*   Updated: 2025/04/12 20:05:59 by zbechtle         ###   ########.fr       */
+/*   Updated: 2025/04/12 21:18:12 by zbechtle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_push_swap.h"
-#include <stdio.h>
 
 int	error_syntax(char *arg)
 {
@@ -41,8 +40,6 @@ int	error_duplicate(t_stack *a, int n)
 	return (0);
 }
 
-# include <stdio.h>
-
 void	free_stack(t_stack **stack)
 {
 	t_stack	*tmp;
@@ -53,7 +50,6 @@ void	free_stack(t_stack **stack)
 	current = *stack;
 	while (current)
 	{
-		printf("%d\n", current->value);
 		tmp = current->next;
 		current->value = 0;
 		free(current);

@@ -6,7 +6,7 @@
 /*   By: zbechtle <zbechtle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/04 12:21:16 by zbechtle          #+#    #+#             */
-/*   Updated: 2025/04/06 16:27:38 by zbechtle         ###   ########.fr       */
+/*   Updated: 2025/04/12 21:02:36 by zbechtle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ void				rrb(t_stack **b, int print);
 void				rrr(t_stack **a, t_stack **b, int print);
 void				pa(t_stack **a, t_stack **b, int print);
 void				pb(t_stack **b, t_stack **a, int print);
-void				what_sort(t_stack *a, t_stack *b);
+void				what_sort(t_stack **a, t_stack **b);
 char				*get_next_word(char *s, char c);
 
 #endif
