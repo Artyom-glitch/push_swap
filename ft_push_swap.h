@@ -6,7 +6,7 @@
 /*   By: zbechtle <zbechtle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/04 12:21:16 by zbechtle          #+#    #+#             */
-/*   Updated: 2025/04/12 21:02:36 by zbechtle         ###   ########.fr       */
+/*   Updated: 2025/04/12 22:00:08 by zbechtle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ void				free_errors(t_stack **a);
 void				stack_creator(t_stack **a, char **argv);
 t_stack				*get_cheapest(t_stack *stack);
 void				prep_for_push(t_stack **s, t_stack *n, char c);
-char				**ft_split(char *s, char c);
 void				free_args(char **argv);
 void				anode_initializer(t_stack *a, t_stack *b);
 void				update_index(t_stack *stack);
