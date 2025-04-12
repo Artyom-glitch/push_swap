@@ -12,7 +12,6 @@ SRCS = main.c				\
 	ft_instructions_part4.c	\
 	ft_sort_three.c			\
 	ft_ERROR.c				\
-	ft_push_swap_split.c	\
 	ft_intializer_part1.c	\
 	ft_intializer_part2.c	\
 
